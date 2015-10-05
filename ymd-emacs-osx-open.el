@@ -16,7 +16,7 @@
 ;; along with this.  If not, see <http://www.gnu.org/licenses/>.
 ;;
 
-(defun osx-open (URI)
+(defun ymd-emacs-osx-open (URI)
   "Open URI by OS X open command
 
 If region is active, the region is used as default input,
