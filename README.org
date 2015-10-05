@@ -1,0 +1,17 @@
+#+TITLE: ymd-emacs-osx-open.el
+#+AUTHOR: H.Yamada
+
+* Install
+  Put the file in one of the load-path directoris and write in ~/.emacs
+  #+BEGIN_SRC emacs-lisp
+  (load "ymd-emacs-osx-open")
+  #+END_SRC
+
+* Usage
+  #+BEGIN_QUOTE
+  M-x ymd-emacs-osx-open
+  #+END_QUOTE
+
+  If you specify the active region, the region is used as default,
+  otherwise url or file at the cursor position is used as default.
+  
